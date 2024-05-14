@@ -103,3 +103,5 @@ If you make use of this code in your research, we would appreciate if you consid
 ## Third-party Code
 
 This repository includes a modified version of `geco.py`, which was originally from [GENESIS](https://github.com/applied-ai-lab/genesis?tab=readme-ov-file#license), licensed with GPL v3.0.
+
+The backbone implementation of the $\beta$-VAE was modified from [this repository](https://github.com/1Konny/Beta-VAE), licensed with MIT license.
