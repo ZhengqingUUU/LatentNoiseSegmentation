@@ -1,6 +1,6 @@
 # VAE_segmentation_GoodGestalt
 
-This is the code base for the paper [Latent Noise Segmentation: How Neural Noise Leads to  the Emergence of Segmentation and Grouping](https://arxiv.org/pdf/2309.16515).
+This is the codebase for the paper [Latent Noise Segmentation: How Neural Noise Leads to  the Emergence of Segmentation and Grouping](https://arxiv.org/pdf/2309.16515).
 
 ## Step 0: Installing Required Libraries
 
@@ -27,8 +27,6 @@ dGradOcclusion === Gradient Occlusion
 dKanizsa === Kanizsa Squares
 dProximity === Proximity
 ```
-
-![](C:\Users\Zhengqing\AppData\Roaming\marktext\images\2024-05-14-16-57-18-image.png)
 
 Each dataset above will have train/validation/test datasets, saved in `train.npz`, `valid.npz`, `test.npz` (`test_1.npz`), respectively. `test_1.npz` are testing images sampled from the same distribution as the training and validation images. These testing images are of less interest for our project and are not used for now. `test.npz` are testing images specially designed for inducing special visual effects (illusions). 
 
